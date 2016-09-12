@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="logos">
+    <file>altbeacon_120.png</file>
+    <file>DHBW_120.png</file>
+    <file>EddyStone_final-02_120.png</file>
+    <file>iBeacon_120.png</file>
+  </qresource>
+</RCC>

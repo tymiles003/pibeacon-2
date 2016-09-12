@@ -1,0 +1,45 @@
+v 1.0.0
+  - set as default now available
+  - advertisements of default beacon on startup
+  - added further alerts
+  - GUI/Controller: values can now be saved to config
+  - Controller: dropped CLI support
+  - Beacon: DHBW Beacon interval is now customizable
+  - GUI: refactored layout
+  - GUI: added Beacon logos
+
+v 0.5.0
+  - Config: Integrated config handler
+  - GUI: Beacon scan is now available
+  - GUI: Bluetooth scan is now available
+  - GUI: Load values from config at startup
+  - GUI: Reset values to default is now available
+  - GUI: Now shows current signal
+  - better comments added to source code
+  - Controller: added permission check for scanning
+  - Controller: added check for enabled Bluetooth
+
+v 0.4.0 - unreleased development version
+
+v 0.3.0
+  - Beacon: Added check for wrong input data
+  - Beacon: Added DHBW Beacon based on Eddystone UID & TLM
+  - Config: Added initialization for default values
+  - GUI: Refactored the layout to fit new requirements
+
+v 0.2.0
+  - GUI: Refactored the layout to fit new requirements
+  - GUI: Added new content / Removed obsolete content
+  - Beacon: Implemented AltBeacon
+  - Scanner: Added scanning capability for all supported Beacon standards (currently only in CLI mode)
+  - Config: Added config handler (currently not in use)
+  - added help text for CLI mode
+
+v 0.1.0
+  - GUI: Added tab styled layout for iBeacon, Eddystone Beacon and AltBeacon
+  - GUI: Added first sketch up for scan tab
+  - GUI: Implemented functionality for iBeacon and Eddystone Beacon
+  - HCI: Implemented wrapper for hci interaction
+  - Beacon: Implemented iBeacon
+  - Beacon: Implemented Eddystone Beacon with UID-Frame
+  - Controller: Added lightwight CLI mode for testing
